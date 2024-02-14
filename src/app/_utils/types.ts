@@ -10,4 +10,4 @@ export const userZodType = z.object({
     }, "Password must contain at least one uppercase letter and one number"),
 });
 
-export type UserType = z.infer<typeof userType>;
+export type UserType = z.infer<typeof userZodType>;
